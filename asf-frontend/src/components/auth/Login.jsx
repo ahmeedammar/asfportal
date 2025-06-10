@@ -166,13 +166,13 @@ const Login = () => {
               </p>
             </div>
             
-            <div className="mt-6 p-4 bg-gradient-to-r from-orange-50 to-orange-100 rounded-lg border border-orange-200">
+            {/* <div className="mt-6 p-4 bg-gradient-to-r from-orange-50 to-orange-100 rounded-lg border border-orange-200">
               <p className="text-xs text-gray-700 text-center">
                 <strong className="text-orange-800">Compte administrateur de test :</strong><br />
                 Nom d'utilisateur : <span className="font-mono bg-white px-1 rounded">admin</span><br />
                 Mot de passe : <span className="font-mono bg-white px-1 rounded">admin123</span>
               </p>
-            </div>
+            </div> */}
           </CardContent>
         </Card>
 
