@@ -74,8 +74,7 @@ const Dashboard = () => {
           </p>
           <p className="text-gray-600 leading-relaxed mt-4">
             Nos opérations s'étendent sur plusieurs régions : la région MENA, l'Afrique de l'Ouest, 
-            l'Afrique centrale, l'Afrique de l'Est, l'Afrique australe, et l'Asie. Nous avons 
-            également fourni des services au Mexique.
+            l'Afrique centrale, l'Afrique de l'Est, l'Afrique australe, et l'Asie. .
           </p>
         </CardContent>
       </Card>
@@ -152,7 +151,7 @@ const Dashboard = () => {
           <ul className="space-y-2 text-gray-600">
             <li>• Consulter notre centre d'aide pour voir les questions fréquentes</li>
             <li>• Poser une nouvelle question dans le forum</li>
-            <li>• Contacter notre équipe support à : support@asfconsulting.tn</li>
+            <li>• Contacter notre équipe support à : chayma.fourati@asfconsulting.org</li>
           </ul>
         </CardContent>
       </Card>
