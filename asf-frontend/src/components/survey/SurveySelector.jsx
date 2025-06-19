@@ -76,7 +76,7 @@ const SurveySelector = () => {
         {/* En-tête */}
         <div className="text-center mb-8">
           <div className="flex items-center justify-center mb-4">
-            <div className="bg-orange-600 text-white px-3 py-1 rounded-lg text-sm font-medium">
+            <div className="bg-blue-600 text-white px-3 py-1 rounded-lg text-sm font-medium">
               ASF Consulting
             </div>
           </div>

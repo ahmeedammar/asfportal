@@ -48,7 +48,7 @@ with app.app_context():
         admin_user.set_password('admin123')
         db.session.add(admin_user)
         db.session.commit()
-        print("Default admin user created: admin/admin123")
+        #print("Default admin user created: admin/admin123")
 
 @app.route('/', defaults={'path': ''})
 @app.route('/<path:path>')
@@ -71,5 +71,5 @@ def health_check():
     return {'status': 'healthy', 'message': 'ASF Consulting Portal API is running'}
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    app.run(host='localhost', port=5000, debug=True)
 
